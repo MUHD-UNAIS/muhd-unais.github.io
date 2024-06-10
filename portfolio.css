@@ -23,4 +23,48 @@ a{
 a:hover{
     color: #c5c6c7;
 }
+.home{
+    width: 70%;
+    height: 60vh;
+}
 
+.home .title{
+   
+    position: relative;
+    margin-top: 20%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.hire{
+    color: #c5c6c7;
+    font-size: medium;
+    background-color: #0b0c10;
+    width: 110px;
+    height: 35px;
+    border-color: #45a29e;
+    border-radius: 10px;
+    position:relative;
+    left: 5px;
+}
+.page1{
+    display:flex;
+}
+.myimage{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+}
+.name{
+    color: #66fcf1;
+}
+b{
+    color: #66fcf1;
+    font-size: 35px;
+}   
+.hire{
+    transition: 1s;
+}
+.hire:hover{
+    transform: scale(1.1);
+}
