@@ -97,3 +97,33 @@ b{
     padding: 40px;
     border-radius: 10px;
 }
+.hskills{
+    text-align: center;
+    color: #66fcf1;
+}
+.mskills{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.cp img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    
+}
+.cp{
+    padding: 20px;
+    background-color:#1f2833;
+    transition: 1s;
+    border-radius: 10px;  
+}
+.lang{
+    text-align: center;
+    color: #c5c6c7;
+
+}
+.cp:hover{
+    transform: scale(1.1);
+}
