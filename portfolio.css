@@ -68,3 +68,32 @@ b{
 .hire:hover{
     transform: scale(1.1);
 }
+.habout{
+    color: #66fcf1;
+}
+.abpara{
+    color: #c5c6c7;
+}
+.page2{
+    display: flex;
+
+}
+.cv{
+    font-size: medium;
+    background-color: #0b0c10;
+    border-color: #45a29e;
+    color: #c5c6c7;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.about{
+    background-color:#1f2833;
+    padding: 40px;
+    border-radius: 10px;
+}
