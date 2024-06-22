@@ -7,6 +7,17 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
     <script src="portfolio.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "32Hi_w9eT8sqJUpFC",
+      });
+   })();
+</script>
+
 </head>
 
 <body>
@@ -95,3 +106,28 @@
 </div>
 <br><br>
 <hr>
+<div class="contact">
+    <h1 class="hcontact" id="contact">Contact Me</h1>
+    <div class="margincontact">
+        <!-- /new -->
+        <form>
+    <div class="form-group">
+        <h5 for="name">Name</h5>
+        <input type="text" class="formcontroll" id="name" placeholder="Enter your name" required/>
+    
+       
+    </div>
+    <div class="form-group">
+        <h5 for="email">Email</h5>
+        <input type="email" class="formcontroll" id="email" placeholder="Enter your email" />
+    
+        
+    </div>
+    <div class="form-group">
+    <h5 for="message">Message</h5>
+    <textarea id="message" row="3" class="form-control"></textarea>
+    <!-- new -->
+    </form>
+</div>
+<button class="subbutton" onclick="sendMail()">Submit</button><br><br><br><br>
+</div>
