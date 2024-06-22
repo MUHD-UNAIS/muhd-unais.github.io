@@ -127,3 +127,43 @@ b{
 .cp:hover{
     transform: scale(1.1);
 }
+
+hr{
+    border-color: #c4c7c7;
+}
+.hprojects{
+    text-align: center;
+    color: #66fcf1;
+}
+.mprojects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.projectdescription{
+    color: #c4c7c7;
+    font-size: large;
+    
+}
+.projectcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color:#1f2833;
+    border-radius: 10px;
+  }
+
+.projectcontainer img{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.giticon:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
